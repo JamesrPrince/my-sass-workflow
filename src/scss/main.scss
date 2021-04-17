@@ -1,0 +1,28 @@
+$fs52: 3.25rem;
+$fs48: 3rem;
+$text-color: #fff;
+$body-bg: gray;
+$bd-ff: recursive, sans-serif;
+
+body {
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: $bd-ff;
+  background: $body-bg;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: $fs52;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

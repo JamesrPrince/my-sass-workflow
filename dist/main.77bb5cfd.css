@@ -1,0 +1,23 @@
+body {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: recursive, sans-serif;
+  background: gray;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 3.25rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */

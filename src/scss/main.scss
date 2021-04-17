@@ -1,8 +1,15 @@
 $fs52: 3.25rem;
 $fs48: 3rem;
+$fs24: 1.5rem;
+$fs18: 1.125rem;
 $text-color: #fff;
+$link-color: #a7a86f;
 $body-bg: gray;
 $bd-ff: recursive, sans-serif;
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   color: $text-color;
@@ -16,6 +23,7 @@ body {
 header {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 
   h1 {
     font-size: $fs52;
@@ -25,4 +33,33 @@ header {
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.hero__card {
+  background: linear-gradient(#d9a933, #805757);
+  text-align: center;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  border: 2px solid black;
+  max-width: 40%;
+  margin: 0 auto;
+  box-shadow: 20px black;
+  border-radius: 10px;
+
+  h2 {
+    font-weight: $fs24;
+  }
+
+  p {
+    font-size: $fs18;
+  }
+
+  .credit {
+    a {
+      color: $link-color;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
 }

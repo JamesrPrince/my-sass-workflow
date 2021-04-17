@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #fff;
   margin: 0;
@@ -10,6 +14,7 @@ body {
 header {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 header h1 {
   font-size: 3.25rem;
@@ -18,6 +23,30 @@ header h1 {
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.hero__card {
+  background: linear-gradient(#d9a933, #805757);
+  text-align: center;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  border: 2px solid black;
+  max-width: 40%;
+  margin: 0 auto;
+  box-shadow: 20px black;
+  border-radius: 10px;
+}
+.hero__card h2 {
+  font-weight: 1.5rem;
+}
+.hero__card p {
+  font-size: 1.125rem;
+}
+.hero__card .credit a {
+  color: #a7a86f;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

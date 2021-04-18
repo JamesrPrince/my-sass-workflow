@@ -3,3 +3,6 @@ node_modules
 
 # ignore the cache 
 .cache
+
+# ignore the sass
+src
